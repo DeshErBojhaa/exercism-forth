@@ -10,7 +10,6 @@ var (
 	ErrEmptyStack      = errors.New("empty stack")
 	ErrIllegalOp       = errors.New("illegal operation")
 	ErrUndefinedOp     = errors.New("undefined operation")
-	ErrInvalidEq       = errors.New("invalid equation")
 	ErrDivByZero       = errors.New("divide by zero")
 	ErrOneValueInStack = errors.New("only one value on the stack")
 )
